@@ -1,0 +1,139 @@
+/* Estilo general para el contenedor y los elementos de la página */
+.container {
+    margin-top: 50px;
+}
+
+/* Tarjetas */
+.card-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.card-body {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+}
+
+.card {
+    border: 1px solid #007bff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.card-img-top {
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+    height: auto;
+}
+
+/* Estilo para el Timeline */
+.timeline {
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+
+.timeline-item {
+    position: relative;
+    padding-left: 50px;
+    margin-bottom: 30px;
+}
+
+.timeline-icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeline-content {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-title {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Estilo para los íconos del timeline */
+.timeline-icon.bg-primary {
+    background-color: #007bff;
+}
+
+.timeline-icon.bg-success {
+    background-color: #28a745;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .timeline-item {
+        padding-left: 30px;
+    }
+    .timeline-content {
+        padding: 10px;
+    }
+}
+
+/* Estilo para los datos curiosos */
+.list-group-item {
+    background-color: #f8f9fa;
+    border: 1px solid #007bff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.list-group-item i {
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.list-group-item .bi {
+    margin-right: 10px;
+}
+
+.list-group-item h5 {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Estilo para el modal */
+.modal-content {
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.modal-body {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.modal-footer {
+    background-color: #f8f9fa;
+    padding: 15px;
+}
+
+.modal-header .btn-close {
+    background-color: #007bff;
+}
+
+/* Estilo para el footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
